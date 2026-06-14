@@ -1,28 +1,28 @@
 class Dupehound < Formula
   desc "Fast, offline duplicate-code detector: scan, history chart, CI gate"
   homepage "https://github.com/Rafaelpta/dupehound"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Rafaelpta/dupehound/releases/download/v0.1.0/dupehound-aarch64-apple-darwin.tar.gz"
-      sha256 "f88a54b92310b5722437c274ba750d6074528616a426f5d9506865acd84b678f"
+      url "https://github.com/Rafaelpta/dupehound/releases/download/v0.1.1/dupehound-aarch64-apple-darwin.tar.gz"
+      sha256 "2761f6fbfcbcce4ea9371afa6836e97aa59b14ef73fc81534f45925c187af1a9"
     end
     on_intel do
-      url "https://github.com/Rafaelpta/dupehound/releases/download/v0.1.0/dupehound-x86_64-apple-darwin.tar.gz"
-      sha256 "d87dca7b63887fd23fa1d799442ccae775f8bb0dd33db8a3a81f1daec4764e5d"
+      url "https://github.com/Rafaelpta/dupehound/releases/download/v0.1.1/dupehound-x86_64-apple-darwin.tar.gz"
+      sha256 "023f37916363784b6ac2de2ddcd0205244e2fc894dcbc414ebd9aa5679326f77"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Rafaelpta/dupehound/releases/download/v0.1.0/dupehound-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cebe2da289d9fee54a22cb841a49e69888f8dc76b82f3d31db640fb28f039070"
+      url "https://github.com/Rafaelpta/dupehound/releases/download/v0.1.1/dupehound-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "176fb5159bf444aac223e06754e36a1876c70e1642d3736b2a341e4a447ebaa7"
     end
     on_intel do
-      url "https://github.com/Rafaelpta/dupehound/releases/download/v0.1.0/dupehound-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "32406b53c048ab800389a12200b7fe40cc505aaa39adbad4534216645070f79f"
+      url "https://github.com/Rafaelpta/dupehound/releases/download/v0.1.1/dupehound-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "878e9a684b66ceeea79c8cb71c4e35904e1341e333a3d36683b807dee525950f"
     end
   end
 
